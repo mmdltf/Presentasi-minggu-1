@@ -152,6 +152,114 @@ Terdapat beberapa jenis Tag pada HTML yang umum digunakan, yaitu:
 
 #### HTML Attribute
 Attribute yang biasa kita temui pada suatu script HTML adalah id, class, src, namun masih terdapat banyak jenis attribute yang sebenar nya bisa kita gunakan seperti Charset, Accept, Accept-charset, For, Form, Media, Name dan masih banyak lagi. 
+## **CSS** ( Rabu,21 September 2022)
+### Apa sih CSS itu? Fungsi nya disaat kita mendevelop sebuah website itu apa?
+CSS atau *cascading style sheet* merupakan sebuah sebuah *MarkUp Language* yang biasa dihubungkan dengan HTML untuk mendesign sebuah laman website agar lebih menarik dan mempercantik tampilan laman web mulai dari design, layouting sampai dengan variasi display dari device yang berbeda (*responsive*). 
+### Penggunaan CSS pada HTML
+Terdapat beberapa cara untuk menggunakan CSS yaitu: 
+
+ - Inline
+ Inline CSS digunakan pada tag HTML tertentu.Penggunaan Atribut `<style>` digunakan untuk memberikan style ke tag HTML tertentu
+ - Internal
+Internal CSS diletakkan di dalam bagian `<head>` pada halaman dengan penggunaan Class/ID. 
+ - External
+External CSS dilakukan diluar script HTML dengan menghubungkan nya menggunakan
+`<link rel="stylesheet" type="text/css" href="styles.css">`. Ketika kita menggunakan external CSS kita bisa memanggil Tag Element nya `h1 {backgrou.....}`maupun menggunakan ID/Class nya seperti `.tombol:hover{
+background-color: rgb(1............);
+}`
+### Aturan Penulisa/ Syntax pada CSS
+Contoh: Terdapat syntax seperti dibawah ini
+h1 {color: red; font-size: 30px; text-align: center;} 
+ - h1 merupakan selector  
+ - color, font-size dan text-align
+   merupakan property  
+  - red, 30px dan center merupakan value nya
+
+### Styling Pada CSS 
+Metode Styling akan saya gunakan adalah External CSS 
+![enter image description here](https://i.postimg.cc/Kc9WFWy3/css-laporan-kodingan-nya.png)
+Maka hasil yang ada ditampilan pada laman browser akan seperti gambar dibawah ini
+![enter image description here](https://i.postimg.cc/hvJ1Kp9V/css-laporan.png)
+
+
+### FlexBox
+Flexbox merupakan sebuah kontainer yang menampung beberapa Flex Item dengan sistem koordinat ***Main Axis*** atau Justify (**Horizontal**) serta ***Cross Axis*** atau Allign (**Vertical**). Terdapat beberapa properti flexbox yang umum digunakan, yaitu:
+-   flex-direction
+-   flex-wrap
+-   flex-flow
+-   justify-content
+-   align-items
+-   align-content
+
+## **Algoritma dan Data Structure** ( Kamis, 22 September 2022)
+Algoritma merupakan suatu aturan di dalam sebuah proses penyelesaian masalah, Sementara Struktur data merupakan sebuah cara untuk mengorganisir sebuah data pada suatu memori (Array, Queue, . Suatu algoritma harus memiliki beberapa sifat yang wajib ada seperti:
+
+ - Input dan Output pada perintahnya harus dilakukan secara tepat dan jelas / ambigu
+ - Setiap langkah yang dilakukan harus terselesaikan dengan runut serta terstruktur
+###  Apa sih perbedaan algoritma dengan pseudocode ?
+Sebenarnya pseudocode merupakan salahsatu pengimplementasian algoritma pada dunia pemograman, bisa dibilang sebuah penyelesaian suatu masalah yang dituangkan kepada sebuah kode. dalam dunia programming sendiri algoritma terbagi menjadi beberapa proses, yaitu:
+- sequence : instruksi yang dijalankan secara berurutan 
+**Contoh :** 
+`let angka1  =  21
+ let angka2  =  24
+ angka3      =  angka1 + angka2
+ console.log(angka3);`
+ >Contoh penggunaan algoritma (Sequence) pada Javascript
+
+- Selection : instruksi yang akan tereksekusi jika kondisi yang ditentukan sudah terpenuhi. 
+**Contoh :**
+![enter image description here](https://i.postimg.cc/x8Xqsh3w/algoritma-coding.png)
+>Contoh penggunaan algoritma (Selection) pada Javascript dengan pengaplikasian if; else if; else
+- Iteration/Repetition : instruksi yang diberikan secara berulang sampai kondisi yang diminta sudah terpenuhi (loop) Kemudian algoritma dapat disajikan dapat 3 bentuk (deskriptif, pseudocode dan flowchart) bentuk ini bersifat kondisional tergantung kondisi yang dihadapi. 
+**Contoh :**
+![enter image description here](https://i.postimg.cc/YCvKvkCK/algoritma-coding-1.png)
+>Contoh penggunaan algoritma (Iteration/Repetition) pada Javascript dengan pengaplikasian for loop
+## **Javascript (Conditional dan Looping)** ( Jumat, 23 September 2022)
+**Javascript** merupakan salah satu bahasa pemograman yang digunakan untuk mendevelop sebuah website agar dinamis serta powerful. Terkadang ada yang beranggapan bahwa **Javascript** merupakan pengembangan dari **Java**, kedua bahasa pemograman ini tidak berkaitan sama sekali ya guys! keduanya memiliki kaidah penulisan yang berbeda malah **Java** cenderung lebih strict dibanding **Javascript**.  
+Pada Javascript terdapat 2 jenis tipe data yaitu primitive dan non-primitive. Tipe data primitive pada javascript itu mencangkup 
+
+1.  `Number`
+2.  `String`
+3.  `Boolean`
+4.  `Undefined`
+5.  `Null`
+6.  `Symbol`
+
+Sementara tipe data non-primitive itu mencangkup
+7. `Object`
+8. `Array`
+
+### Penggunaan Javascript 
+Hal yang pertama harus kita lakukan pada penggunaan javascript adalah menghubungkan HTML dengan Javascript karena JS bukanlah bahasa pemograman yang bisa berdiri sendiri. `<script src = "Script.js"></script> ` javascript siap digunakan. Pada bahasa pemograman ini terdapat beberapa operator dasar yang wajib dipahami bagi seseorang developer yaitu
+
+ - `+` Penjumlahan
+
+- `-` Pengurangan
+
+- `*` Perkalian
+
+- `/` Pembagian
+- `%` Modulus (sisa bagi)
+
+- `**` Eksponensial
+
+- `++` Increment
+
+- `--` Decrement
+
+### Javascript Loop
+Looping pada pemograman merupakan sebuah pengulangan sampai nilai tersebut ***False***. Secara umum terdapat 3 jenis looping pada javascript For, Do While dan While Do. 
+
+ - **For** merupakan pengulangan yang bersifat tetap/ fix karena hanya akan terjadi ketika kondisinya memenuhi.
+ ![enter image description here](https://i.postimg.cc/NFHQQWb6/for.png)
+ - ***Do While*** merupakan pengulangan yang dimana suatu proses akan dijalankan terlebih dahulu baru/ kondisi baru akan diperiksa setelah proses looping terjadi
+ ![enter image description here](https://i.postimg.cc/7PnCcRbF/do-while.png)
+ - ***While Do*** merupakan proses looping dimana suatu proses akan dijalankan ketika kondisi sudah terpenuhi
+ ![enter image description here](https://i.postimg.cc/284gD4nL/dhile-do.png)
+
+### Javascript Conditional 
+JS conditional merupakan conditional statements yang dimana mengontrol/memutuskan suatu code bisa dijalankan atau tidak. Sebenarnya terdapat beberapa contoh JS conditional namun salah satu nya adalah `if else` yang dimana sebuah code baru akan bisa dieksekusi jika kondisi nya sudah memenuhi/ true.
+![enter image description here](https://i.postimg.cc/284gD4nL/dhile-do.png)
 
 
 
