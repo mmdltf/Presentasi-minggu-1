@@ -24,13 +24,16 @@ Perintah yang terdapat pada CLI beragam dan sangat banyak namun terdapat beberap
 
 `ls` untuk melihat isi/ list files yang berada pada sebuah directory
 ![enter image description here](https://i.postimg.cc/wvrq5DQz/Commandline-ls.png)
+
 `cd` untuk berpindah dari satu directory ke directory lainnya
 ![enter image description here](https://i.postimg.cc/zDj39Pc3/Commandline-CD.png)
+
 `mkdir` untuk membuat directory baru
 ![enter image description here](https://i.postimg.cc/x1rCHDkx/Commandline-mkdir.png)
 
 `touch` untuk membuat sebuah empty file suatu direktori 
 ![enter image description here](https://i.postimg.cc/dQxRb1Xh/Commandline-touch.png)
+
 `mv` untuk memindahkan satu/ lebih directory/files dari satu lokasi ke lokasi lainnya
   ## **B**. **GIT dan GITHUB**
   **GIT** merupakan sebuah *version control* yang dimana bisa mentrack seluruh perubahan pada repository/ files di suatu projek. Sebenarnya keduanya ini sama-sama *version control* tapi letak perbedaan nya terdapat pada lokasi nya, yang dimana **GIT** harus terinstall secara local pada windows sementara **GITHUB** berbentuk cloud atau bisa dibilang **GIT** adalah sebuah software sementara **GITHUB** adalah sebuah service. Sebenarnya terdapat beberapa jenis yang hampir serupa dengan GITHUB yaitu:
