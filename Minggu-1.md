@@ -1,4 +1,5 @@
-﻿# **Presentasi-minggu-1**
+# Muhammad Luthfi Shafwan (FE 25) (Serrum Gudskul)
+# **Presentasi-minggu-1**
 
 ## **Command Line dan Git/Github** ( senin, 19 September 2022)
 
