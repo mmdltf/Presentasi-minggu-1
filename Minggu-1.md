@@ -263,7 +263,7 @@ Looping pada pemograman merupakan sebuah pengulangan sampai nilai tersebut ***Fa
 
 ### Javascript Conditional 
 JS conditional merupakan conditional statements yang dimana mengontrol/memutuskan suatu code bisa dijalankan atau tidak. Sebenarnya terdapat beberapa contoh JS conditional namun salah satu nya adalah `if else` yang dimana sebuah code baru akan bisa dieksekusi jika kondisi nya sudah memenuhi/ true.
-![enter image description here](https://i.postimg.cc/284gD4nL/dhile-do.png)
+![enter image description here]([https://i.postimg.cc/284gD4nL/dhile-do.png](https://i.postimg.cc/MpCYmNgN/if-elseeeee.png))
 
 
 
